@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Header from '../components/Header'
+import Hero from '../components/Hero'
 const Home = () => {
 
     useEffect(() => {
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <main>
             <Header />
+            <Hero />
         </main>
     )
 }

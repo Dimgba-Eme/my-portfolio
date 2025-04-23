@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [linkNav, setLinkNav] = useState("")
     return (
-        <section className='navbar-container'>
+        <div className='navbar-container'>
             <div className='navbar-inner'>
                 <div>
                     <img onClick={() => setIsOpen(!isOpen)} src={burger_menu} alt='burger menu' className='burger-menu' />
@@ -27,13 +27,11 @@ const Navbar = () => {
                             <a href='#skills' onClick={() => setLinkNav("skills")} className={linkNav === "skills" ? "active" : ""}>Skills</a>
                             <a href='#projects' onClick={() => setLinkNav("projects")} className={linkNav === "projects" ? "active" : ""}>Projects</a>
                             <a href='#contact-me' onClick={() => setLinkNav("contact-me")} className={linkNav === "contact-me" ? "active" : ""}>Contact Me</a>
-
                         </ul>
                     </div>
                 </nav>
-
             </div>
-        </section>
+        </div>
     )
 }
 
