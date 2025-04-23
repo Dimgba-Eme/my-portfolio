@@ -1,3 +1,9 @@
 .navbar-container .navbar-inner .burger-menu {
   width: 40px;
+}
+.navbar-container .navbar-inner .github-linkedin-container .github-icon {
+  width: 40px;
+}
+.navbar-container .navbar-inner .github-linkedin-container .linkedin-icon {
+  width: 40px;
 }/*# sourceMappingURL=navbar.css.map */

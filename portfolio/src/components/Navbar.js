@@ -12,7 +12,7 @@ const Navbar = () => {
                     <img src={burger_menu} alt='burger menu' className='burger-menu' />
                 </div>
 
-                <div>
+                <div className='github-linkedin-container'>
                     <a href='https://github.com/Dimgba-Eme' target='_blank'><img src={github_icon} alt='Github icon' className='github-icon' /></a>
                     <a href='https://www.linkedin.com/in/dimgba-eme-4616a6111/' target='_blank'><img src={linkedin_icon} alt='linkedin icon' className='linkedin-icon' /></a>
                 </div>
