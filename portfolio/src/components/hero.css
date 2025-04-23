@@ -1,0 +1,20 @@
+.hero-container {
+  padding: 30px 20px;
+}
+.hero-container .hero-inner .profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.hero-container .hero-inner .location-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-container .hero-inner .location-container .location-icon {
+  width: 20px;
+  height: 20px;
+}
+.hero-container .hero-inner .location-container .location-title {
+  color: #fff;
+}/*# sourceMappingURL=hero.css.map */
