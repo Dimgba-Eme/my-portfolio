@@ -1,4 +1,5 @@
 import React from 'react'
+import skills_list from '../assets/images/skills_list'
 
 const Skills = () => {
   return (
