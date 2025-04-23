@@ -50,6 +50,7 @@
   .hero-container .hero-inner .intro {
     font-size: 25px;
     margin: 0 100px;
+    margin-top: 40px;
   }
 }
 @media (min-width: 1000px) {
