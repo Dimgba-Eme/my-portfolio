@@ -1,56 +1,144 @@
-.navbar-container {
-    .navbar-inner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+@media (max-width: 800px) {
 
-        .burger-menu {
-            width: 40px;
-        }
+    .navbar-container {
 
-        .github-linkedin-container {
+        .navbar-inner {
             display: flex;
-            gap: 20px;
+            justify-content: space-between;
+            align-items: center;
 
-            .github-icon {
-                width: 40px;
-                color: #fff;
-            }
-
-            .linkedin-icon {
+            .burger-menu {
                 width: 40px;
             }
-        }
 
-        .nav-links-container {
-            display: none;
-            border: 1px solid red;
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            bottom: 0;
-            width: 100%;
+            .github-linkedin-container {
+                display: flex;
+                gap: 20px;
 
-            .close-icon {
-                width: 20px;
-                margin-top: 20px;
-                margin-left: 20px;
+                .github-icon {
+                    width: 40px;
+                    color: #fff;
+                }
+
+                .linkedin-icon {
+                    width: 40px;
+                }
             }
 
             nav {
-                background-color: #fff;
-                width: 60%;
-                height: 100dvh;
+                display: none;
+                background-color: #00000090;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
 
-                .nav-link {
-                    font-size: 20px;
-                    font-weight: bold;
-                    text-align: center;
-                    text-decoration: none;
-                    color: #333333;
+
+                .nav-links-container {
+                    background-color: #fff;
+                    width: 60%;
+                    height: 100dvh;
+                    left: 0;
+                    animation: slideIn 0.5s;
+
+
+                    .close-icon {
+                        width: 20px;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+
+                    .nav-links-inner {
+                        a {
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-align: center;
+                            text-decoration: none;
+                            color: #333333;
+                            display: flex;
+                            flex-direction: column;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+
+                &.isOpen {
                     display: flex;
-                    flex-direction: column;
-                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 800px) {
+
+    .navbar-container {
+
+        .navbar-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .burger-menu {
+                display: none;
+            }
+
+            .github-linkedin-container {
+                display: flex;
+                gap: 20px;
+                margin-right: auto;
+
+                .github-icon {
+                    width: 40px;
+                    color: #fff;
+                }
+
+                .linkedin-icon {
+                    width: 40px;
+                }
+            }
+
+            nav {
+                display: flex;
+
+                .nav-links-container {
+
+                    .close-icon {
+                        display: none;
+                    }
+
+                    .nav-links-inner {
+                        display: flex;
+                        gap: 40px;
+
+                        a {
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-align: center;
+                            text-decoration: none;
+                            color: #fff;
+
+                            &:hover {
+                                color: #ccc;
+                            }
+
+                            &.active {
+                                border-bottom: 4px solid #EB2188;
+                            }
+                        }
+                    }
                 }
             }
         }
