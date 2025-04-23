@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
-  return (
-    <main>
-      
-    </main>
-  )
+
+    useEffect(() => {
+        document.title = "Dimgba Eme | Portfolio"
+    }, [])
+    return (
+        <main>
+            <Navbar />
+        </main>
+    )
 }
 
 export default Home
