@@ -1,1 +1,10 @@
-/*# sourceMappingURL=skills.css.map */
+.skills-container {
+  padding: 20px 20px;
+}
+.skills-container .skills-title {
+  text-align: center;
+  color: #fff;
+}
+.skills-container .skills-inner .skills-list .skill-icon {
+  width: 50px;
+}/*# sourceMappingURL=skills.css.map */
