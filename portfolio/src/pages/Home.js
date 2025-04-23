@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import Navbar from '../components/Navbar'
-
+import Header from '../components/Header'
 const Home = () => {
 
     useEffect(() => {
@@ -8,7 +7,7 @@ const Home = () => {
     }, [])
     return (
         <main>
-            <Navbar />
+            <Header />
         </main>
     )
 }

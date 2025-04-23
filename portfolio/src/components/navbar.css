@@ -1,9 +1,44 @@
+.navbar-container .navbar-inner {
+  display: flex;
+  justify-content: space-between;
+}
 .navbar-container .navbar-inner .burger-menu {
   width: 40px;
 }
 .navbar-container .navbar-inner .github-linkedin-container .github-icon {
   width: 40px;
+  color: #fff;
 }
 .navbar-container .navbar-inner .github-linkedin-container .linkedin-icon {
   width: 40px;
+}
+.navbar-container .navbar-inner .nav-links-container {
+  display: none;
+  border: 1px solid red;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.navbar-container .navbar-inner .nav-links-container .close-icon {
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.navbar-container .navbar-inner .nav-links-container nav {
+  background-color: #fff;
+  width: 60%;
+  height: 100dvh;
+}
+.navbar-container .navbar-inner .nav-links-container nav .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }/*# sourceMappingURL=navbar.css.map */
