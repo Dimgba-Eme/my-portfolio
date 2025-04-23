@@ -2,12 +2,16 @@
     .navbar-inner {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .burger-menu {
             width: 40px;
         }
 
         .github-linkedin-container {
+            display: flex;
+            gap: 20px;
+
             .github-icon {
                 width: 40px;
                 color: #fff;
@@ -44,7 +48,6 @@
                     text-align: center;
                     text-decoration: none;
                     color: #333333;
-                    place-self: center;
                     display: flex;
                     flex-direction: column;
                     margin-top: 30px;
