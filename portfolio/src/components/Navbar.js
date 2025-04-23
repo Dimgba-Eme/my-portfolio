@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navbar.scss'
 import burger_menu from '../assets/icons/burger-menu.png'
 import github_icon from '../assets/icons/github.png'
@@ -6,6 +6,7 @@ import linkedin_icon from '../assets/icons/linkedin.png'
 import close_icon from '../assets/icons/icon-close.svg'
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <section className='navbar-container'>
             <div className='navbar-inner'>
