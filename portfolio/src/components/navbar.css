@@ -12,11 +12,12 @@
     gap: 20px;
   }
   .navbar-container .navbar-inner .github-linkedin-container .github-icon {
-    width: 40px;
-    color: #fff;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
   }
   .navbar-container .navbar-inner .github-linkedin-container .linkedin-icon {
-    width: 40px;
+    width: 30px;
   }
   .navbar-container .navbar-inner nav {
     display: none;
@@ -78,7 +79,8 @@
   }
   .navbar-container .navbar-inner .github-linkedin-container .github-icon {
     width: 40px;
-    color: #fff;
+    background-color: #fff;
+    border-radius: 50%;
   }
   .navbar-container .navbar-inner .github-linkedin-container .linkedin-icon {
     width: 40px;
