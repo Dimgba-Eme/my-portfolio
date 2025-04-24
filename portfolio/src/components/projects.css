@@ -1,0 +1,9 @@
+.projects-container {
+  padding: 20px;
+}
+.projects-container .projects-title {
+  color: #fff;
+  text-align: center;
+  -webkit-text-decoration: 6px underline #0f1398;
+          text-decoration: 6px underline #0f1398;
+}/*# sourceMappingURL=projects.css.map */
