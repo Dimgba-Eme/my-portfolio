@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.scss'
+import projects_list from '../assets/images/projects_list'
 
 const Projects = () => {
   return (
