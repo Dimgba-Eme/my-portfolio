@@ -5,7 +5,7 @@ import projects_list from '../assets/images/projects_list'
 
 const Projects = () => {
     return (
-        <section className='projects-container'>
+        <section id='projects' className='projects-container'>
             <h1 className='projects-title'>PROJECTS</h1>
             <div className='projects-inner'>
                 {projects_list.map((project, index) => {
