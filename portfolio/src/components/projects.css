@@ -69,9 +69,6 @@
     flex-direction: row;
     gap: 20px;
   }
-  .projects-container .projects-inner .project-list .project-pic {
-    width: 100%;
-  }
 }
 @media (min-width: 1000px) {
   .projects-container {
