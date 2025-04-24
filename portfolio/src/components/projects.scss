@@ -7,5 +7,47 @@
         text-decoration: 6px underline #0f1398;
     }
 
-    .projects-inner {}
+    .projects-inner {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .project-list {
+            border: 1px solid red;
+            .project-pic {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .project-intro {
+                .project-name {
+                    color: #fff;
+                }
+
+                .project-description {
+                    color: lighten(black, 50);
+                }
+
+                .language-container {
+                    display: flex;
+                    gap: 30px;
+
+                    .react {
+                        padding: 10px;
+                        background-color: #525008;
+                        border-radius: 10px;
+                        color: #fff;
+                    }
+
+                    .sass {
+                        padding: 10px;
+                        background-color: #525008;
+                        border-radius: 10px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
 }

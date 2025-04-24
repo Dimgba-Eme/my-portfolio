@@ -9,6 +9,7 @@ const projects_list = [
         description: 'E-commerce website where customers purchase varieties of items which are delivered to them within a short period of time.',
         language_one: "REACT",
         language_two: "SASS",
+        github_link: '',
     },
 
     {
@@ -17,6 +18,7 @@ const projects_list = [
         description: "Online food ordering website where customers choose and order food from the available menu, which are then packaged and delivered speedily.",
         language_one: "REACT",
         language_two: "SASS",
+        github_link: '',
     },
 ]
 

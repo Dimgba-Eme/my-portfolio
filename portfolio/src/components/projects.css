@@ -6,4 +6,39 @@
   text-align: center;
   -webkit-text-decoration: 6px underline #0f1398;
           text-decoration: 6px underline #0f1398;
+}
+.projects-container .projects-inner {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.projects-container .projects-inner .project-list {
+  border: 1px solid red;
+}
+.projects-container .projects-inner .project-list .project-pic {
+  width: 100%;
+  border-radius: 10px;
+}
+.projects-container .projects-inner .project-list .project-intro .project-name {
+  color: #fff;
+}
+.projects-container .projects-inner .project-list .project-intro .project-description {
+  color: gray;
+}
+.projects-container .projects-inner .project-list .project-intro .language-container {
+  display: flex;
+  gap: 30px;
+}
+.projects-container .projects-inner .project-list .project-intro .language-container .react {
+  padding: 10px;
+  background-color: #525008;
+  border-radius: 10px;
+  color: #fff;
+}
+.projects-container .projects-inner .project-list .project-intro .language-container .sass {
+  padding: 10px;
+  background-color: #525008;
+  border-radius: 10px;
+  color: #fff;
 }/*# sourceMappingURL=projects.css.map */
