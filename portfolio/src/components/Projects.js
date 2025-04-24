@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.scss'
+import right_arrow from '../assets/icons/right-arrow.png'
 import projects_list from '../assets/images/projects_list'
 
 const Projects = () => {
@@ -18,7 +19,7 @@ const Projects = () => {
                                     <p className='react'>{project.language_one}</p>
                                     <p className='sass'>{project.language_two}</p>
                                 </div>
-                                <a href='' target='_blank'>See more</a>
+                                <a href={project.github_link} target='_blank' className='project-link'>See more <span><img src={right_arrow} alt='right arrow' className='right-arrow' /></span></a>
                             </div>
                         </div>
                     )
