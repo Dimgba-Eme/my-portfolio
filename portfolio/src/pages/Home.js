@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 const Home = () => {
 
     useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Header />
             <Hero />
             <Skills />
+            <Projects />
         </main>
     )
 }
